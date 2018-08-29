@@ -3,7 +3,7 @@ import os
 try:
     from django.conf import settings
     from django.test.utils import get_runner
-    os.environ.setdefault('TELEGRAM_BOT_TOKEN', '174446943:AAEcMXep4Uc51sAkYcTJC7vEoLmmxwnQgcc')
+    os.environ.setdefault('TELEGRAM_BOT_TOKEN', '410791967:AAE9k6Md42v3dtMSzW3jroF_3umKaWfaxvo')
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tests.settings_test')
     try:
         import django
