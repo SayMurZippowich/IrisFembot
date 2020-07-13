@@ -29,7 +29,7 @@ class BotHandler:
             name = row['message']['chat']['first_name']
             this_chat_id = row['message']['chat']['id']
             this_text = row['message']['text']
-            if name == 'Nastya':
+            if name == '':
                 print(this_text)
 
     def send_message_to_N(self, text):
